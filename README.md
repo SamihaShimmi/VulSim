@@ -2,9 +2,12 @@ This repository contains the artifact for the paper "VulSim: Leveraging Similari
 
 # Steps to run VulSim 
 Our final model is a decision tree-based classifier. 
+
 The code to run the classifier is available in the Classifier folder (decisionTree.ipynb). 
+
 The input data to the classifiers are available in Classifier/data folder.
-As we can see from the paper, we have several sets of results based on n=5 and n=3 settings. Additionally, we have results for single dimension, double dimension and hybrid dimension. The hybrid dimension merges all 3 dimensions and we consider that as the final result for VulSim. To run VulSim for n=3 and n=5, the file name in decisionTree.ipynb will be code2vecSBERTCodeBERTN=3.xlsx and code2vecSBERTNCODEBERTN=5.xlsx respectively. In order to replicate the results for single and double dimensions, the appropriate file name should be selected and the filenames in data folder are self explanatory.
+
+As we can see from the paper, we have several sets of results based on n=5 and n=3 settings. Additionally, we have results for single dimension, double dimension and hybrid dimension. The hybrid dimension merges all 3 dimensions and we consider that as the final result for VulSim. To run VulSim for n=3 and n=5, the file name in decisionTree.ipynb will be code2vecSBERTCodeBERTN=3.xlsx and code2vecSBERTNCODEBERTN=5.xlsx respectively. In order to replicate the results for single and double dimensions, the appropriate file name should be selected and the filenames in data folder are self-explanatory.
 
 # code2vec (trained on Devign) is implemented using https://github.com/dcoimbra/dx2021
 
