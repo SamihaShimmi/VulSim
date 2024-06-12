@@ -1,5 +1,5 @@
-# This repository contains the artifact for the paper "VulSim: Leveraging Similarity of Multi-Dimensional Neighbor Embeddings for Vulnerability Detection" (accepted in USENIX Security 2024)
-# InterDimenEmbed
+This repository contains the artifact for the paper "VulSim: Leveraging Similarity of Multi-Dimensional Neighbor Embeddings for Vulnerability Detection" (accepted in USENIX Security 2024)
+
 
 # code2vec (trained on Devign) is implemented using https://github.com/dcoimbra/dx2021
 
