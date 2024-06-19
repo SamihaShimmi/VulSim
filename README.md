@@ -9,7 +9,7 @@ Our model relies on three existing models code2vec, SBERT and CodeBERT. We proce
 
 As we can see from the paper, we have several sets of results based on n=5 and n=3 settings. Additionally, we have results for single dimension, double dimension and hybrid dimension. The hybrid dimension merges all 3 dimensions and we consider that as the final result for VulSim. To run VulSim for n=3 and n=5, the file name in decisionTree.ipynb will be code2vecSBERTCodeBERTN=3.xlsx and code2vecSBERTNCODEBERTN=5.xlsx respectively. In order to replicate the results for single and double dimensions, the appropriate file name should be selected and the filenames in data folder are self-explanatory.
 
-# Our model relies on three existing models code2vec, SBERT and CodeBERT. We pre-processed the data using these three models. In order to pre-process data, following steps need to be done.
+# Our model relies on three existing models code2vec, SBERT and CodeBERT. We pre-processed the data using these three models that is available in Classifier/data folder. In order to pre-process data yourself, the following steps need to be done.
 
 # Dataset
 we used Devign dataset. Link to devign datataset is https://sites.google.com/view/devign.
@@ -18,7 +18,7 @@ We had to remove 71 records due to the code2vec implementation. Our test, train 
 After removing 71 records, modified dataset can be downloaded from here https://drive.google.com/drive/folders/1AGFr3Z3yfhwY5HYW3vvMSY5KGrVzFG7K?usp=sharing
 
 
-# code2vec (trained on Devign) is implemented using https://github.com/dcoimbra/dx2021
+# code2vec (trained on Devign) is implemented using https://github.com/dcoimbra/dx2021 and needs to be downloaded using their instructions. 
 
 Our part is available in code2vec folder.
 
@@ -40,7 +40,7 @@ Similarly the result can be passed to the  decisionTree.ipynb
 
 Then codebertOurs.ipynb generates the ranking and we can pass it to the classifier.
 
-# CodeBERT is implemented from Microsoft CodexGlue benchmark https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/Defect-detection
+# CodeBERT is implemented from Microsoft CodexGlue benchmark https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/Defect-detection. The model need to be donwloaded and fine-tuned using their instruction.
 
 Our part is available in CodeBERT folder
 
