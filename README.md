@@ -1,6 +1,6 @@
 This repository contains the artifact for the paper "VulSim: Leveraging Similarity of Multi-Dimensional Neighbor Embeddings for Vulnerability Detection" (accepted in USENIX Security 2024)
 
-# Steps to run VulSim 
+# Steps to run VulSim (Replicate Table 3)
 Our final model is a decision tree-based classifier. 
 
 The code to run the classifier is available in the Classifier folder (decisionTree.ipynb). 
