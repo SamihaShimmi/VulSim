@@ -39,7 +39,10 @@ A2 - Code Edits.ipynb this file generates the embeddings and calculates cosine s
 Then codebertOurs.ipynb generates the ranking and we can pass it to the classifier.
 
 # Dataset
-we used Devign dataset. We had to remove 71 records due to the code2vec implementation. Our test, train and validation file can be found at clearnDevignJsonl folder after removing 71 records.
+we used Devign dataset. Link to devign datataset is https://sites.google.com/view/devign.
+
+We had to remove 71 records due to the code2vec implementation. Our test, train and validation file can be found at clearnDevignJsonl folder after removing 71 records.
+After removing 71 records, modified dataset can be downloaded from here.
 
 # Visualization
 visualization part can be downloaded from Visualization directory. data.7zip should be extractd. Then you can run using python3 -m http.server / python -m http.server command. Run localhost to see the report.
